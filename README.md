@@ -1,6 +1,11 @@
 # Particle Swarm Optimization (PSO)
 Vehicle scheduling optimization of battery electric bus based on Partical Swarm Optimization
 
+## Introduction
+&emsp;&emsp; With the development of our society, more and more people choose public transport as their first choice for traveling because of environment friendly. And battery-electric buses are seen as a well-suited technology for the electrification of road-based public transport. However, the transition process from conventional diesel to electric buses faces major hurdles caused by range limitations and the required charging time of battery buses.
+&emsp;&emsp; So, how to optimize the vehicle scheduling of Battery Electric Buses needs to be studied. In my research, the optimization object including minimizing the total number of buses in operation within a day, minimizing charging cost and minimizing the battery cost.
+&emsp;&emsp; This research includes maintaining the health of batter, scheduling of electric buses and optimization of the charging process. In the paper, I choose two Battery Electric Buses lines which the data is from Shanghai Bus No. 3 Bus company for research. Based on the model I purposed and the Particle Swarm Optimization algorithm, I got optimization results with less use of buses and less charging time within a day. Last, I drew a Gantt chart of the battery-electric bus scheduling.
+
 ## main_function.m
 &emsp;&emsp; Code of Partical Swarm Optimization Algorithm
 
